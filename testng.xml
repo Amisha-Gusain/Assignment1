@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MySuite">
+    <test name="Combined Tests">
+        <groups>
+            <run>
+                <include name="smoke"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.example.testngmain.GroupTest1"/>
+            <class name="com.example.testngmain.GroupTest2"/>
+        </classes>
+    </test>
+
+</suite>
+<!--<suite name="MySuite">
+    <test name="First Test Class">
+        <classes>
+            <class name="com.example.testngmain.FirstTestCase"/>
+        </classes>
+    </test>
+
+    <test name="Second Test Class">
+        <classes>
+            <class name="com.example.testngmain.SecondTestCase"/>
+        </classes>
+    </test>
+
+</suite>-->
+
